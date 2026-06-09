@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "id": 1,
+        "salutation": "mr",
+        "first_name": "Karthik",
+        "last_name": "P",
+        "email": "kartikrao@gmailc.om",
+        "mobile": "9085849493",
+        "dob": "2026-06-07",
+        "gender": "male"
+    }
+]
