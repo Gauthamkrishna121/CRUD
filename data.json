@@ -8,5 +8,15 @@
         "mobile": "9085849493",
         "dob": "2026-06-07",
         "gender": "male"
+    },
+    {
+        "id": 2,
+        "salutation": "mr",
+        "first_name": "Chakravarthy",
+        "last_name": "P",
+        "email": "ch@gmail.com",
+        "mobile": "9092450712",
+        "dob": "2026-06-17",
+        "gender": "male"
     }
 ]
