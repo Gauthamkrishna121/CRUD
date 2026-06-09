@@ -3,6 +3,17 @@
         "id": 1,
         "name": "Chakaravarthy",
         "email": "lalapubgyt@gmail.com",
-        "mobile": "2727282145"
+        "mobile": "2727282146",
+        "salutation": "mr",
+        "first_name": "gowtham",
+        "last_name": "M",
+        "dob": "2026-06-17",
+        "gender": "male"
+    },
+    {
+        "id": 2,
+        "name": "Mr. chad d",
+        "email": "chakravarthy.p2024@vitstudent.ac.in",
+        "mobile": "9092450712"
     }
 ]
