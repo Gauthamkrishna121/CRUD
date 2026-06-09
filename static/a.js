@@ -37,5 +37,8 @@ async function loadTable(){
         </tr>
         `;
     });
+    loadTable();
 }
-loadTable();
+async function delemp(id){
+    await fetch ()
+}

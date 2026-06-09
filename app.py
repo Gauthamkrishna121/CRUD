@@ -44,6 +44,19 @@ def get_employees():
     print(employees)
     return jsonify(employees)
 
+@app.route("/delet/<int:id",methods=["DELETE"])
+def del_emp(id):
+    emp=load_data()
+    emp=[
+        e for e in emp
+        if emp["id"]!=id
+    ]
+    save_data(emp)
+    
+    return jsonify({
+        "message":"Employee Deleted"
+    })
+
 
 
 if __name__=="__main__":
