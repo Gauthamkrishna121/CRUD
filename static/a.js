@@ -31,14 +31,17 @@ async function loadTable(){
             <td>${emp.email}</td>
             <td>${emp.mobile}</td>
             <td>
+            <button  onclick="delemp(${emp.id})" type="button" class="btn btn-primary">DELETE</button>
             <button type="button" class="btn btn-primary">EDIT</button>
-            <button type="button" class="btn btn-primary">DELET</button>
             </td>
         </tr>
         `;
     });
-    loadTable();
 }
+loadTable();
 async function delemp(id){
-    await fetch ()
+    await fetch (`/delete/${id}`,{
+        method : "DELETE"
+    })
+    loadTable();
 }

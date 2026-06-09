@@ -44,12 +44,12 @@ def get_employees():
     print(employees)
     return jsonify(employees)
 
-@app.route("/delet/<int:id",methods=["DELETE"])
-def del_emp(id):
+@app.route("/delete/<int:id>",methods=["DELETE"])
+def delemp(id):
     emp=load_data()
     emp=[
         e for e in emp
-        if emp["id"]!=id
+        if e["id"]!=id
     ]
     save_data(emp)
     
