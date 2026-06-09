@@ -158,3 +158,4 @@ if (resetFormBtn) {
 }
 
 document.addEventListener("DOMContentLoaded", loadTable);
+    
