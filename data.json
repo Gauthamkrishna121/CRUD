@@ -18,5 +18,15 @@
         "mobile": "9092450712",
         "dob": "2026-06-17",
         "gender": "male"
+    },
+    {
+        "id": 3,
+        "salutation": "mr",
+        "first_name": "Rajesh",
+        "last_name": "K",
+        "email": "rk@gmail.com",
+        "mobile": "6532985632",
+        "dob": "2026-06-09",
+        "gender": "male"
     }
 ]
