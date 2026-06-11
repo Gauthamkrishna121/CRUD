@@ -1,4 +1,4 @@
-from flask import Flask,render_template,request,jsonify
+﻿from flask import Flask,render_template,request,jsonify
 import json 
 import os 
 app = Flask(__name__)
@@ -28,8 +28,11 @@ def add_employees():
     employee = {
         "id": len(employees) + 1,
         "name": data["name"],
+        "lname": data["lname"],
         "email": data["email"],
-        "mobile":data["mobile"]
+        "mobile":data["mobile"],
+        "dob":data["dob"]
+
     }
 
     employees.append(employee)

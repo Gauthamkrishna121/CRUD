@@ -1,8 +1,10 @@
-async function sub(){
+﻿async function sub(){
     console.log("Submit clicked");
     const name=document.getElementById("Fname").value;
+    const lname=document.getElementById("Lname").value;
     const email=document.getElementById("email").value;
     const mobile = document.getElementById("mobile").value;
+    const dob = document.getElementById("dob").value;
 
     await fetch("/add",{
         method:"POST",
@@ -11,15 +13,17 @@ async function sub(){
         },
         body:JSON.stringify({
             name,
+            lname,
             email,
-            mobile
+            mobile,
+            dob
         })
     });
     loadTable();
 }
 
 async function loadTable(){
-    const response =await fetch("/employees");
+    const response = await fetch("/employees");
     const data = await response.json();
     const tbody = document.getElementById("tablemain");
     tbody.innerHTML="";
@@ -39,6 +43,7 @@ async function loadTable(){
     });
 }
 loadTable();
+
 async function delemp(id){
     await fetch (`/delete/${id}`,{
         method : "DELETE"
