@@ -1,1 +1,36 @@
+<<<<<<< HEAD
 []
+=======
+[
+    {
+        "id": 1,
+        "salutation": "mr",
+        "first_name": "Karthik",
+        "last_name": "P",
+        "email": "kartikrao@gmailc.om",
+        "mobile": "9085849493",
+        "dob": "2026-06-07",
+        "gender": "male"
+    },
+    {
+        "id": 2,
+        "salutation": "mr",
+        "first_name": "Chakravarthy",
+        "last_name": "P",
+        "email": "ch@gmail.com",
+        "mobile": "9092450712",
+        "dob": "2026-06-17",
+        "gender": "male"
+    },
+    {
+        "id": 3,
+        "salutation": "mr",
+        "first_name": "Rajesh",
+        "last_name": "K",
+        "email": "rk@gmail.com",
+        "mobile": "6532985632",
+        "dob": "2026-06-09",
+        "gender": "male"
+    }
+]
+>>>>>>> bdb856ac1c0db84810718a27108be12d98618bd5
